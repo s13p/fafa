@@ -16,6 +16,7 @@
             font-family: 'Maria', sans-serif;
             height: 100%;
             overflow-x: hidden;
+            margin: 0 !important;
         }
         /* Navbar CSS */
         nav ul {
@@ -24,18 +25,21 @@
             display: flex;
             justify-content:;
             background-color: #333;
-            margin-top: -2rem;
-            height: 100px;
+            margin-top: 0;
+            height: 70px;
             margin-left: -2rem;
             width: 100vw;
+            z-index: 665;
         }
-
+nav {
+    margin-bottom: -1rem !important;
+}
         nav a {
             color: white;
          margin-top: 4rem !important;
             text-decoration: none;
             text-align: right;
-            line-height: 100px;
+            line-height: 70px;
             padding: 0 20px;
         }
 
@@ -53,18 +57,22 @@
     display: inline-block;
     vertical-align: top;
     height: 100vh;
+
 }
 .carousel {
-    white-space: nowrap; /* Prevent wrapping of inline content */
+    white-space: nowrap;
+ /* Prevent wrapping of inline content */
 }
 
 .carousel-images {
     display: inline-block;
+    
 }
 
 .carousel img {
     display: inline-block;
-    width: 33.33%; /* Dividing by total number of unique images */
+    width: 33.33%;
+    padding-bottom: 2rem !important;/* Dividing by total number of unique images */
 }
 
 .center-png {
@@ -146,6 +154,7 @@
                 <img src="1.jpg" alt="Image 1">
                 <img src="2.jpg" alt="Image 2">
                 <img src="3.jpg" alt="Image 3">
+                <img src="e.jpg" alt="Image 4">
        
             
         </div>
@@ -183,9 +192,11 @@
 CA: 0X000000000000000000000
 
             </p>
-            <img src="CB-06.png" style="width: 5vw;" alt="Right Image">
+            <img src="CB-06.png" style="width: 5vw !important;" alt="Right Image">
         </div>
+
     </section>
+    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div style="position: fixed; bottom: 0;" id="coinmarketcap-widget-marquee" coins="1,1027,825,74,24478,27276,512,1839,5426,52,5015" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
 <script>
     $(document).ready(function(){
     $("#carouselContainer").owlCarousel({
