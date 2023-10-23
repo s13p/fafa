@@ -10,11 +10,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
-    <title>Responsive Website</title>
+    <title>$CRYPTO</title>
     <style>
         body{
             font-family: 'Maria', sans-serif;
-            height: 100%;
+            height: 110%;
             overflow-x: hidden;
             margin: 0 !important;
             background-color: #333;
@@ -120,20 +120,88 @@ nav {
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            font-size: 34px;
+            color: white;
            
         }
 
+
+        .content p {
+            font-size: 34px;
+            color: white;
+        }
         .content p, .content img {
             flex-basis: 50%;
             padding: 1em;
             color: rgb(255, 255, 255);
         }
-
+     
+        .ra {
+    height: 100px; width: auto;
+}
         @keyframes marqueeAnimation {
             0% { transform: translateX(0%); }
             100% { transform: translateX(-50%); }
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (max-width: 600px) {
+            body {
+                overflow-x: hidden;
+            }
+    ul li{
+    display: none;
+   }
+   .icons {
+  position: absolute;
+  bottom: 50%;
+  left: 45%;
+  transform: translateX(-50%);
+  display: flex;
+  z-index: 999;
+  width:50px;
+  height: auto;
+  gap: 1rem;
+}
+#about {
+    height: max-content;
+}
+.ra {
+    height: 50px; width: auto;
+}
+.marquee img {
+    height: 80px;
+}
+.hihi.span{
+height: 300px !important;
+}
+.content p {
+            font-size: 20px;
+            color: white;
+            text-align: center;
+        }
+        .ficha {
+            display: none;
+        }
+        .content p, .content img {
+            flex-basis: 100%;
+        }
+        }
     </style>
 </head>
 <body>
@@ -162,9 +230,9 @@ nav {
         </div>
         <img src="center.png" class="center-png" alt="Centered PNG">
         <div class="icons">
-           <a href=""><img style="height: 100px; width: auto;" src="./telegram.png" alt="">
+           <a href="https://t.me" target="_blank"><img class="ra" src="./telegram.png" alt="">
            </a>             
-           <a href=""> <img style="height: 100px; width: auto;" src="./twitter (1).png" alt=""> </a>
+           <a href="https://x.com" target="_blank"> <img class="ra" src="./twitter (1).png" alt=""> </a>
         </div>
     </section>
     <div class="marquee">
@@ -187,16 +255,17 @@ nav {
     <section id="about">
       
         <div class="content">
-            <p style="color: #ffffff; font-size: 34px; padding-left: 1rem;">Crypto Boy, the titular character embarking on a thrilling adventure into the world of cryptocurrency. As a crypto enthusiast, he becomes fascinated with the idea of starting his own crypto meme coin. Follow Crypto Boy's journey as he navigates the complex landscape of blockchain technology, encountering both the excitement and the challenges of creating a digital currency infused with humor and memes. His quest to launch his coin is filled with humor, suspense, and a touch of absurdity, reflecting the fast-paced and unpredictable nature of the cryptocurrency market. 'Crypto Boy' offers a unique and entertaining take on the cryptocurrency craze, combining elements of comedy and finance to create a captivating cinematic experience. Join Crypto Boy on his road of financial freedom.
+            <p class="mki">Crypto Boy, the titular character embarking on a thrilling adventure into the world of cryptocurrency. As a crypto enthusiast, he becomes fascinated with the idea of starting his own crypto meme coin. Follow Crypto Boy's journey as he navigates the complex landscape of blockchain technology, encountering both the excitement and the challenges of creating a digital currency infused with humor and memes. His quest to launch his coin is filled with humor, suspense, and a touch of absurdity, reflecting the fast-paced and unpredictable nature of the cryptocurrency market. 'Crypto Boy' offers a unique and entertaining take on the cryptocurrency craze, combining elements of comedy and finance to create a captivating cinematic experience. Join Crypto Boy on his road of financial freedom.
             <br><br><br><br>
             $CRYPTO  - TAX 1/1
-<br><br><br><br>
-CA: 0X000000000000000000000
-
-            </p>
-            <img src="CB-06.png" style="width: 5vw !important;" alt="Right Image">
+<br>
+CA: 0X00000000000000000000
+            </p><br><br><br><br><br><br>
+            <img class="ficha" src="CB-06.png" style="width: 5vw !important;" alt="Right Image">
         </div>
+<div style="height: 200px;" >
 
+</div>
     </section>
     <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div style="position: fixed; bottom: 0;" id="coinmarketcap-widget-marquee" coins="1,1027,825,74,24478,27276,512,1839,5426,52,5015" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
 <script>
