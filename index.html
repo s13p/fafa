@@ -146,7 +146,9 @@ nav {
 
 
 
-
+.dede {
+    width: 150px; height: auto; position: absolute; top: 0; left: 0;
+}
 
 
 
@@ -163,13 +165,20 @@ nav {
         @media only screen and (max-width: 600px) {
             body {
                 overflow-x: hidden;
+                padding-bottom: 5vh !important;
             }
     ul li{
     display: none;
    }
+   
+.dede {
+    width: 150px; height: auto; position: absolute; top: 0; left: 0; padding-left: 33% !important;
+
+}
+
    .icons {
   position: absolute;
-  bottom: 50%;
+  bottom: 20%;
   left: 45%;
   transform: translateX(-50%);
   display: flex;
@@ -187,8 +196,14 @@ nav {
 .marquee img {
     height: 80px;
 }
+.owl-item .active {
+    height: 50vh !important;
+}
 .hihi.span{
 height: 300px !important;
+}
+.owl-carousel .owl-item {
+    height: auto;
 }
 .content p {
             font-size: 20px;
@@ -201,13 +216,22 @@ height: 300px !important;
         .content p, .content img {
             flex-basis: 100%;
         }
+
+        .center-png {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  z-index: 77;
+  height: 30vh;
+  transform: translateX(-50%);
+}
         }
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav>
-        <img style="width: 150px; height: auto; position: absolute; top: 0; left: 0;" src="CB-07.png" alt="">
+        <img class="dede" src="CB-07.png" alt="">
          
         <ul>
             <div style="width: 40vw;"></div>
